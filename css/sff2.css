@@ -1,0 +1,102 @@
+html, body{height:100%; width:100%; overflow-x:hidden; background:#02021e !important;}
+::-webkit-scrollbar{display: none;}
+.col{padding:0 !important;}
+.whiteText{color:white;}
+.header{background:#22313F !important; border:solid 1px rgba(0,0,0,0) !important;}
+
+.logo{height:100%; width:100%; padding:5px; margin:0;}
+.logo img{height:40px; width:auto;}
+.logo-phone{display:none !important;}
+.logo-desktop{display:block !important;}
+.platformStatus{margin-top:15px; text-align:center !important;}
+.stasName img{height:20px; width:auto;}
+.stasLabel{margin-left:10px !important;}
+.col-stasLocation, .col-stasDate, .col-stasTime{display:block !important;}
+.sidebarDesktop{height:100%; width:50px; background:#151a35;position: fixed; z-index: 1; top: 0; overflow-x: hidden; padding-top: 60px; border-right:2px solid #101326;}
+.baris1{margin-top:50px;}
+.col-chart1, .col-chart2{background:#2C3E50; border-radius:5px;  height:350px;}
+.col-chart1 h3, .col-chart2 h3{text-align:center; color:white; font-weight:bold; margin:0 !important; padding-top:15px;}
+.roll, .pitch, .yaw{margin-left:15px;}
+.roll label, .pitch label, .yaw label{font-size:14pt; color:white;}
+.ab{margin-left:20px;}
+.ab label{font-size:32px; color:#C5EFF7;}
+#dPitch{transition-duration: 1s;}
+#dRoll{transition-duration: 1s;}
+#dYaw{transition-duration: 1s;}
+.allParamChart{min-width:310px; min-height:310px; margin:0 auto;}
+.col-planth{background:#2C3E50; border-radius:5px; padding:5px;  height:200px;}
+.col-planth h3{text-align:center; margin-top:5px !important;}
+.col-planth h3 span img{height:25px; width:auto;}
+.col-planth h3 label{margin-left:10px; font-size:14pt !important;}
+.planth-content{text-align:center; margin-top:0px;}
+#planth{font-size:36pt; font-weight:bold; color:#C5EFF7;;}
+.satuan{font-size:24pt; text-align:center; margin-top:-20px;}
+.pH-Chart{min-width:75px; min-height:177px; margin:0 auto;}
+.col-soilM{background:#2C3E50; border-radius:5px; height:200px;}
+.col-soilM h3{text-align:center; margin-top:5px !important;}
+.col-soilM h3 span img{height:25px; width:auto;}
+.col-soilM h3 label{margin-left:10px; font-size:14pt !important;}
+.soilM-content{text-align:center; margin-top:-9px;}
+#soilM{font-size:48pt; font-weight:bold; color:#C5EFF7;}
+#soilMchart{min-width:75px; min-height:40px; margin:0 auto;}
+.soilM-Chart{margin-top:-20px;}
+.col-temp{background:#2C3E50; border-radius:5px; height:200px;}
+.soil-temp{text-align:center;}
+.soil-temp h3{text-align:center; margin-top:5px !important;}
+.soil-temp h3 span img{height:25px; width:auto;}
+.soil-temp h3 label{margin-left:10px; font-size:14pt !important;}
+#soilT{font-size:36pt; font-weight:bold; color:#C5EFF7; margin-top:0px; padding:0px;}
+.air-temp{text-align:center;}
+.air-temp h3{text-align:center; margin-top:5px !important;}
+.air-temp h3 span img{height:25px; width:auto;}
+.air-temp h3 label{margin-left:10px; font-size:14pt !important;}
+#airT{font-size:36pt; font-weight:bold; color:#C5EFF7; margin-top:0px; padding:0px;}
+.sL{padding-left:15px !important; padding-right: 15px !important;}
+.smokeL{background:#2C3E50; border-radius:5px; padding:5px; height:175px;}
+.smokeL h3{text-align:center; margin-top:5px !important;}
+.smokeL h3 span img{height:25px; width:auto;}
+.smokeL h3 label{margin-left:10px; font-size:14pt !important;}
+.smokeL-content{text-align:center;}
+#smokel{font-size:48pt; font-weight:bold; color:#C5EFF7; margin-top:-20px; padding:0px;}
+.wL{padding-left:15px !important;}
+.waterL{background:#2C3E50; border-radius:5px; padding:5px; height:175px;}
+.waterL h3{text-align:center; margin-top:5px !important;}
+.waterL h3 span img{height:25px; width:auto;}
+.waterL h3 label{margin-left:10px; font-size:14pt !important;}
+.waterL-content{text-align:center;}
+#waterlevel{font-size:48pt; font-weight:bold; color:#C5EFF7; margin-top:-20px; padding:0px;}
+.aH{padding-left:15px !important;}
+.airH{background:#2C3E50; border-radius:5px; padding:5px;}
+.airH h3{text-align:center; margin-top:5px !important;}
+.airH h3 span img{height:25px; width:auto;}
+.airH h3 label{margin-left:10px; font-size:14pt !important;}
+.airH-content{text-align:center;}
+#airhumid{font-size:36pt; font-weight:bold; color:#C5EFF7; margin-top:0px; padding:0px;}
+.vL{padding-left:15px !important; padding-right:15px !important;}
+.vibL{background:#2C3E50; border-radius:5px; padding:5px; height:175px;}
+.vibL h3{text-align:center; margin-top:5px !important;}
+.vibL h3 span img{height:25px; width:auto;}
+.vibL h3 label{margin-left:10px; font-size:14pt !important;}
+.vibL-content{text-align:center;}
+#vibralevel{font-size:48pt; font-weight:bold; color:#C5EFF7; margin-top:-20px; padding:0px;}
+.lI{padding-left:0px !important;}
+.lightI{background:#2C3E50; border-radius:5px; padding:5px; height:175px;}
+.lightI h3{text-align:center; margin-top:5px !important;}
+.lightI h3 span img{height:25px; width:auto;}
+.lightI h3 label{margin-left:10px; font-size:14pt !important;}
+.lightI-content{text-align:center;}
+#light{font-size:48pt; font-weight:bold; color:#C5EFF7; margin-top:-20px; padding:0px;}
+
+@media screen and (min-device-width:769px){
+
+}
+
+@media screen and (max-device-width:768px){
+  .logo-desktop{display:none !important;}
+  .logo-phone{display:block !important; margin:0 auto;}
+  .platformStatus{margin-top:15px; text-align:left !important;}
+  .col-stasLocation, .col-stasDate, .col-stasTime{display:none !important;}
+  .col-stasName{width:100% !important;}
+  .stasLabel{margin-left:30px !important; font-size:12pt;}
+  .stasName{display:none !important;}
+}

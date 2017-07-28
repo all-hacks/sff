@@ -1,0 +1,28 @@
+html, body{height:100%; width:100%; overflow-x:hidden;}
+
+.whiteText{color:white;}
+
+.grad {
+  background: #12182c; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#335a8f 5%, #283d60 15%, #12182c 60%); /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(#335a8f 5%, #283d60 15%, #12182c 60%); /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(#335a8f 5%, #283d60 15%, #12182c 60%); /* For Firefox 3.6-15 */
+  background: radial-gradient(#335a8f 5%, #283d60 15%, #12182c 60%); /* Standard syntax */
+}
+.logo{text-align:center;}
+.logo img{height:50px; width:auto;}
+.title{text-align:center; padding:5pt; margin:0px; font-size:18pt !important; font-weight:bold; color:#C5EFF7;}
+.nama-stasiun{height: auto; margin-top:40px; text-align:center; border-bottom:1px solid #22A7F0; padding:0px;}
+.well{border:1px solid rgb(65,131,215) !important;}
+.namaStas{text-align:left; padding:5px 0 0 0;}
+.dateUpdate{text-align:left; padding:5px 0 0 0;}
+.lokasiDepl{text-align:left; padding:5px 0 0 0;}
+
+.soil-Moist, .soil-Temp, .plant-Height{text-align:center;}
+.soil-Title img, .soil-Temp-Title img, .plant-Height-Title img{height:30px;}
+.soil-Moist-Chart, .soil-Temp-Chart, .plant-Height-Chart{margin-top:10px;}
+
+@media screen and (max-device-width:360px) {
+  .title{text-align:center; padding:5pt; margin:0px; font-size:14pt !important; font-weight:bold; color:#C5EFF7;}
+
+}
